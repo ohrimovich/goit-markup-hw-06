@@ -66,6 +66,25 @@
           </button>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
+              <form class="modal-content">
+                <p class="modal-content-title">Оставьте свои данные, мы вам перезвоним</p>
+                <label for="modal-content-name" class="modal-content-label">Имя <svg class="modal-content-icon" width="18" height="18">
+                  <use href="./images/icons.svg#person-black"></use>
+                </svg> <input class="modal-content-input" type="text" name="name" id="modal-content-name"></label>
+                
+                <label for="modal-contant-phone" class="modal-content-label">Телефон <svg class="modal-content-icon" width="18" height="18">
+                  <use href="./images/icons.svg#phone-black"></use>
+                </svg><input class="modal-content-input" type="tel" name="phone-number" id="modal-contant-phone"></label>
+                
+                <label for="modal-contant-email" class="modal-content-label">Почта <svg class="modal-content-icon" width="18" height="18">
+                  <use href="./images/icons.svg#email-black"></use>
+                </svg><input class="modal-content-input" type="email" name="email" id="modal-contant-email"></label>
+                
+                <label for="modal-content-comment" class="modal-content-label">Комментарий <textarea class="modal-content-input" name="comment" id="modal-content-comment" rows="6" placeholder="Введите текст"></textarea></label>
+          
+                <label class="modal-cheked-label"><input class="checkbox" type="checkbox"> <span class="checkbox-icon"></span> Соглашаюсь с рассылкой и принимаю <a class="checkbox-link" href="">Условия договора</a></label>
+                <button class="modal-submit" type="submit">Отправить</button>
+              </form>
               <button class="close-button" data-modal-close type="button">
                 <svg class="close-button-icon" width="18" height="18">
                   <use href="./images/icons.svg#icon-close"></use>>
